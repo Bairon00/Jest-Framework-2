@@ -16,11 +16,11 @@ test('trasforma 1 Euro a 1.2 Dollar',()=>{
     let total=fromEuroToDollar(1);
     expect(total).toBe(1.2)
 })
-test('trasforma 6 Dollar a 639.5 Yen',()=>{
-    let total=fromDollarToYen(6);
-    expect(total).toBe(639.5);
+test('trasforma 120 Dollar a 12790 Yen',()=>{
+    let total=fromDollarToYen(120);
+    expect(total).toBe(12790);
 })
-test('trasforma 1 yen a 0.00625488663018 pound ',()=>{
-    let total=fromYanToPound(1);
-    expect(total).toBe(0.00625488663018);
+test('trasforma 127.9 yen a 0.8 pound ',()=>{
+    let total=fromYanToPound(127.9);
+    expect(total).toBe(0.8);
 })
